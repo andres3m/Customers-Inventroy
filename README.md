@@ -19,18 +19,3 @@
 - **ORM:** Entity Framework Core
 - **Hosting:** Elephant SQL
 
-## Prerequisites
-
-To run this project locally, ensure you have the following installed:
-
-- [.NET SDK](https://dotnet.microsoft.com/download) (version 6.0 or later)
-- [PostgreSQL](https://www.postgresql.org/download/) (for local development)
-- An account on [Elephant SQL](https://www.elephantsql.com/) (for hosted database)
-
-## Getting Started
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/Customers-Inventory.git
-cd Customers-Inventory
