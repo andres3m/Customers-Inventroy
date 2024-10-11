@@ -35,4 +35,6 @@ secrets.json
 # Paquetes NuGet
 *.nupkg
 *.snupkg
+
+#environment variables
 /Properties/launchSettings.json

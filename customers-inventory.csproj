@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>customers_inventory</RootNamespace>
+    <UserSecretsId>0af87018-e148-4d27-83a1-874405a83b55</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
