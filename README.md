@@ -19,3 +19,10 @@
 - **ORM:** Entity Framework Core
 - **Hosting:** Elephant SQL
 
+## How to run
+To run this app locally:
+
+- Clone the repo.
+- Ask me for the launchSettings.json code which contains the DB_CONNECTION_STRING.
+- Update launchSettings.json with the code provided.
+- Run the app.
