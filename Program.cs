@@ -1,7 +1,12 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using customers_inventory.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddDbContext<customers_inventoryContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("customers_inventoryContext") ?? throw new InvalidOperationException("Connection string 'customers_inventoryContext' not found.")));
 
 var app = builder.Build();
 
