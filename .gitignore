@@ -1,0 +1,37 @@
+# Visual Studio
+.vscode/
+.vs/
+*.user
+*.suo
+
+# Archivos de compilación
+bin/
+obj/
+
+# Paquetes
+*.nuget/packages/
+bower_components/
+node_modules/
+
+# Archivos temporales
+*.tmp
+*.bak
+*.backup
+*.swp
+*~
+*.orig
+
+# Certificados
+*.pfx
+
+# Configuraciones locales y secretos
+appsettings.*.json
+appsettings.Development.json
+secrets.json
+
+# Archivos de logs
+*.log
+
+# Paquetes NuGet
+*.nupkg
+*.snupkg
